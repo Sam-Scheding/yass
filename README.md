@@ -73,11 +73,17 @@ As a result, if you know how to write CSS, then you know how to write simple Yas
 
   - border-radius
   - border-width
-  - box-shadow
   - colors
+  - font-family
+  - font-size
+  - font-weight
+  - gap
+  - height
+  - margin
+  - opacity
+  - padding
   - size
-  - spacing
-  - typography
+  - width
 
 However, even in these cases, Yass behaves in a predictable way. For example:
 ```html
