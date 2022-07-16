@@ -1,6 +1,6 @@
 # Yass - The fabulous atomic CSS library 
 
-Yass Builds on concepts from [Hucssley](), [TurretCSS](), and [Rainbow](https://github.com/scottdejonge/rainbow) and consolidates them in a single package.
+Yass Builds on concepts from [Hucssley](https://github.com/stowball/hucssley), [TurretCSS](https://github.com/turretcss/turretcss), and [Rainbow](https://github.com/scottdejonge/rainbow) and consolidates them in a single package.
 
 ## Quickstart
 
@@ -15,9 +15,8 @@ import 'yass'
 export default function MyComponent() {
   return (
     <div className={`
-      border:red-500 
-      width:500
-      height:500
+      border-color:red-500
+      width:100%
     `}>
     </div>
   )
@@ -33,16 +32,13 @@ $ npm i yass
 <script>
 import 'yass'
 
-export default {
-
-}
+export default {}
 </script>
 
 <template>
   <div v-bind:class="`
-    border:red-500 
-    width:500
-    height:500
+    border-color:red-500
+    width:100%
   `">
   </div>
 </template>
@@ -53,7 +49,7 @@ Yep, it's that simple.
 ## Core Concepts
 ### No Steep Learning Curve
 
-Although there are some other great atomic CSS libraries out there like [TailwindCSS](), it can be annoying when you're first learning them to constantly look up documentation to find class names. Yass takes inspiration from Hucssley by using class names that are as close as possible to the original CSS properties. 
+Although there are some other great atomic CSS libraries out there like [TailwindCSS](https://github.com/tailwindlabs/tailwindcss), it can be annoying when you're first learning them to constantly look up documentation to find class names. Yass takes inspiration from [Hucssley](https://github.com/stowball/hucssley) by using class names that are as close as possible to the original CSS properties. 
 
 Most of the time, the class you need will have exactly the same name as the relevant style. For example:
 ```html
@@ -150,7 +146,7 @@ When copy/pasting styles, or maybe just due to muscle memory, you might accident
 ```
 This will not work, since Yass won't be able to determine that when you wrote `display:flex;` you actually meant `display:flex`.
 
-### use `class` instead of `style`
+### Use `class` instead of `style`
 
 Although it looks like you're writing CSS, `border-width:100` is not a valid CSS rule, so:
 ```html
@@ -158,11 +154,11 @@ Although it looks like you're writing CSS, `border-width:100` is not a valid CSS
   ...
 </div>
 ```
-won't work. All Yass rules need to go in `class`. 
+won't work. All Yass rules go in `class`. 
 
 ### Multi valued CSS properties 
 
-You might run into a situation where you want to uniqule style different sides of an element. For example, in vanilla CSS, it might look like this:
+You might run into a situation where you want to uniquely style different sides of an element. For example, in vanilla CSS, you would write something like:
 
 ```html
 <div style="
@@ -172,7 +168,7 @@ You might run into a situation where you want to uniqule style different sides o
 </div>
 ```
 
-At first glance it might be confusing how to convert this to Yass, since `margin:200 0 200 200` is not a valid class name because it contains spaces. However, whenenver a CSS property allows for multiple values, that property is actually a shorthand for multiple other CSS properties. So, the correct Yass code is actually:
+At first glance it might be confusing how to convert this to Yass, since `margin:200 0 200 200` is not a valid class name because it contains spaces. However, whenever a CSS property allows for multiple values, that property is actually a shorthand for multiple other CSS properties. So, the correct Yass code is actually:
 ```html
 <div style="
   margin-top:200
@@ -193,9 +189,9 @@ It's a little verbose, but Yass provides utility classes to help, and since `div
 </div>
 ```
 
-## Best Practises
+## Best Practices
 
-For simplicity, the examples in this readme have written Yass inline in the HTML, however, this is not recommended for any code that is intended to scale. The implementation details for best practise will change depending on your stack, but it is generally recommended to pull your Yass styles out to a separate file and import them. For example:
+For simplicity, the examples in this readme have written Yass inline in the HTML, however, this is not recommended for any code that is intended to scale. The implementation details for best practice will change depending on your stack, but it is generally recommended to pull your Yass styles out to a separate file and import them. For example:
 
 `styles.js`
 ```js
