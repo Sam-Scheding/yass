@@ -1,0 +1,8 @@
+@import '../design-tokens/dt-margin.scss';
+
+@each $key, $value in $dt-margin {
+  .margin-horizontal\:#{$key} {
+    margin-left: $value;
+    margin-right: $value;
+  }
+}

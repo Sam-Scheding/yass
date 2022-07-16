@@ -1,0 +1,19 @@
+// border-radius
+// border-top-radius
+// border-right-radius
+// border-bottom-radius
+// border-left-radius
+
+$dt-border-radius: (
+  0: 0px,
+  100: 2px,
+  200: 4px,
+  300: 6px,
+  400: 8px,
+  500: 16px,
+  600: 32px,
+  700: 64px,
+  800: 128px,
+  900: 256px,
+  1000: 512px,
+);

@@ -1,0 +1,8 @@
+@import '../design-tokens/dt-padding.scss';
+
+@each $key, $value in $dt-padding {
+  .padding-horizontal\:#{$key} {
+    padding-left: $value;
+    padding-right: $value;
+  }
+}

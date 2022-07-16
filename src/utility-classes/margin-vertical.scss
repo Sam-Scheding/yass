@@ -1,0 +1,8 @@
+@import '../design-tokens/dt-margin.scss';
+
+@each $key, $value in $dt-margin {
+  .margin-vertical\:#{$key} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+}

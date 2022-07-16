@@ -1,0 +1,4 @@
+.visually-hidden {
+  @extend .opacity\:0;
+  @extend .size\:0;
+}

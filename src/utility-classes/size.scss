@@ -1,0 +1,8 @@
+@import '../design-tokens/dt-size.scss';
+
+@each $key, $value in $dt-size {
+  .size\:#{$key} {
+    width: $value;
+    height: $value;
+  }
+}

@@ -1,0 +1,3259 @@
+{
+  "accent-color": {
+    "validValues": [
+      "auto",
+      "<color>"
+    ],
+    "initialValue": "auto"
+  },
+  "align-content": {
+    "validValues": [
+      "auto",
+      "stretch",
+      "center",
+      "flex-start",
+      "flex-end",
+      "baseline",
+      "initial",
+      "inherit"
+    ],
+    "initialValue": "stretch"
+  },
+  "align-items": {
+    "validValues": [
+      "stretch",
+      "center",
+      "flex-start",
+      "flex-end",
+      "baseline",
+      "initial",
+      "inherit"
+    ],
+    "initialValue": "stretch"
+  },
+  "align-self": {
+    "validValues": [
+      "auto",
+      "stretch",
+      "center",
+      "flex-start",
+      "flex-end",
+      "baseline",
+      "initial",
+      "inherit"
+    ],
+    "initialValue": "auto"
+  },
+  "align-tracks": {
+    "validValues": [
+      "normal",
+      "<baseline-position>",
+      "<content-distribution>",
+      "<overflow-position>? <content-position>#"
+    ],
+    "initialValue": "normal"
+  },
+  "animation-delay": {
+    "validValues": [
+      "<time>#"
+    ],
+    "initialValue": "0s"
+  },
+  "animation-direction": {
+    "validValues": [
+      "<single-animation-direction>#"
+    ],
+    "initialValue": "normal"
+  },
+  "animation-duration": {
+    "validValues": [
+      "<time>#"
+    ],
+    "initialValue": "0s"
+  },
+  "animation-fill-mode": {
+    "validValues": [
+      "<single-animation-fill-mode>#"
+    ],
+    "initialValue": "none"
+  },
+  "animation-iteration-count": {
+    "validValues": [
+      "<single-animation-iteration-count>#"
+    ],
+    "initialValue": "1"
+  },
+  "animation-name": {
+    "validValues": [
+      "none",
+      "<keyframes-name>#"
+    ],
+    "initialValue": "none"
+  },
+  "animation-play-state": {
+    "validValues": [
+      "<single-animation-play-state>#"
+    ],
+    "initialValue": "running"
+  },
+  "animation-timeline": {
+    "validValues": [
+      "<single-animation-timeline>#"
+    ],
+    "initialValue": "auto"
+  },
+  "animation-timing-function": {
+    "validValues": [
+      "<easing-function>#"
+    ],
+    "initialValue": "ease"
+  },
+  "appearance": {
+    "validValues": [
+      "none",
+      "button",
+      "button-bevel",
+      "caret",
+      "checkbox",
+      "default-button",
+      "inner-spin-button",
+      "listbox",
+      "listitem",
+      "media-controls-background",
+      "media-controls-fullscreen-background",
+      "media-current-time-display",
+      "media-enter-fullscreen-button",
+      "media-exit-fullscreen-button",
+      "media-fullscreen-button",
+      "media-mute-button",
+      "media-overlay-play-button",
+      "media-play-button",
+      "media-seek-back-button",
+      "media-seek-forward-button",
+      "media-slider",
+      "media-sliderthumb",
+      "media-time-remaining-display",
+      "media-toggle-closed-captions-button",
+      "media-volume-slider",
+      "media-volume-slider-container",
+      "media-volume-sliderthumb",
+      "menulist",
+      "menulist-button",
+      "menulist-text",
+      "menulist-textfield",
+      "meter",
+      "progress-bar",
+      "progress-bar-value",
+      "push-button",
+      "radio",
+      "searchfield",
+      "searchfield-cancel-button",
+      "searchfield-decoration",
+      "searchfield-results-button",
+      "searchfield-results-decoration",
+      "slider-horizontal",
+      "slider-vertical",
+      "sliderthumb-horizontal",
+      "sliderthumb-vertical",
+      "square-button",
+      "textarea",
+      "textfield",
+      "-apple-pay-button"
+    ],
+    "initialValue": "none"
+  },
+  "aspect-ratio": {
+    "validValues": [
+      "auto",
+      "<ratio>"
+    ],
+    "initialValue": "auto"
+  },
+  "backdrop-filter": {
+    "validValues": [
+      "none",
+      "<filter-function-list>"
+    ],
+    "initialValue": "none"
+  },
+  "backface-visibility": {
+    "validValues": [
+      "visible",
+      "hidden"
+    ],
+    "initialValue": "visible"
+  },
+  "background-attachment": {
+    "validValues": [
+      "<attachment>#"
+    ],
+    "initialValue": "scroll"
+  },
+  "background-blend-mode": {
+    "validValues": [
+      "<blend-mode>#"
+    ],
+    "initialValue": "normal"
+  },
+  "background-clip": {
+    "validValues": [
+      "<box>#"
+    ],
+    "initialValue": "border-box"
+  },
+  "background-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "transparent"
+  },
+  "background-image": {
+    "validValues": [
+      "<bg-image>#"
+    ],
+    "initialValue": "none"
+  },
+  "background-origin": {
+    "validValues": [
+      "<box>#"
+    ],
+    "initialValue": "padding-box"
+  },
+  "background-position-x": {
+    "validValues": [
+      "center",
+      "left",
+      "right",
+      "x-start",
+      "x-end? <length-percentage>?!#"
+    ],
+    "initialValue": "0%"
+  },
+  "background-position-y": {
+    "validValues": [
+      "center",
+      "top",
+      "bottom",
+      "y-start",
+      "y-end? <length-percentage>?!#"
+    ],
+    "initialValue": "0%"
+  },
+  "background-repeat": {
+    "validValues": [
+      "<repeat-style>#"
+    ],
+    "initialValue": "repeat"
+  },
+  "background-size": {
+    "validValues": [
+      "<bg-size>#"
+    ],
+    "initialValue": "auto auto"
+  },
+  "block-size": {
+    "validValues": [
+      "<'width'>"
+    ],
+    "initialValue": "auto"
+  },
+  "border-block-color": {
+    "validValues": [
+      "<'border-top-color'>{1,2}"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "border-block-end-color": {
+    "validValues": [
+      "<'border-top-color'>"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "border-block-end-style": {
+    "validValues": [
+      "<'border-top-style'>"
+    ],
+    "initialValue": "none"
+  },
+  "border-block-end-width": {
+    "validValues": [
+      "<'border-top-width'>"
+    ],
+    "initialValue": "medium"
+  },
+  "border-block-start-color": {
+    "validValues": [
+      "<'border-top-color'>"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "border-block-start-style": {
+    "validValues": [
+      "<'border-top-style'>"
+    ],
+    "initialValue": "none"
+  },
+  "border-block-start-width": {
+    "validValues": [
+      "<'border-top-width'>"
+    ],
+    "initialValue": "medium"
+  },
+  "border-block-style": {
+    "validValues": [
+      "<'border-top-style'>"
+    ],
+    "initialValue": "none"
+  },
+  "border-block-width": {
+    "validValues": [
+      "<'border-top-width'>"
+    ],
+    "initialValue": "medium"
+  },
+  "border-bottom-color": {
+    "validValues": [
+      "<'border-top-color'>"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "border-bottom-left-radius": {
+    "validValues": [
+      "<length-percentage>{1,2}"
+    ],
+    "initialValue": "0"
+  },
+  "border-bottom-right-radius": {
+    "validValues": [
+      "<length-percentage>{1,2}"
+    ],
+    "initialValue": "0"
+  },
+  "border-bottom-style": {
+    "validValues": [
+      "<line-style>"
+    ],
+    "initialValue": "none"
+  },
+  "border-bottom-width": {
+    "validValues": [
+      "<line-width>"
+    ],
+    "initialValue": "medium"
+  },
+  "border-collapse": {
+    "validValues": [
+      "collapse",
+      "separate"
+    ],
+    "initialValue": "separate"
+  },
+  "border-end-end-radius": {
+    "validValues": [
+      "<length-percentage>{1,2}"
+    ],
+    "initialValue": "0"
+  },
+  "border-end-start-radius": {
+    "validValues": [
+      "<length-percentage>{1,2}"
+    ],
+    "initialValue": "0"
+  },
+  "border-image-outset": {
+    "validValues": [
+      "<length>",
+      "<number>{1,4}"
+    ],
+    "initialValue": "0"
+  },
+  "border-image-repeat": {
+    "validValues": [
+      "stretch",
+      "repeat",
+      "round",
+      "space{1,2}"
+    ],
+    "initialValue": "stretch"
+  },
+  "border-image-slice": {
+    "validValues": [
+      "<number-percentage>{1,4} && fill?"
+    ],
+    "initialValue": "100%"
+  },
+  "border-image-source": {
+    "validValues": [
+      "none",
+      "<image>"
+    ],
+    "initialValue": "none"
+  },
+  "border-image-width": {
+    "validValues": [
+      "<length-percentage>",
+      "<number>",
+      "auto{1,4}"
+    ],
+    "initialValue": "1"
+  },
+  "border-inline-color": {
+    "validValues": [
+      "<'border-top-color'>{1,2}"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "border-inline-end-color": {
+    "validValues": [
+      "<'border-top-color'>"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "border-inline-end-style": {
+    "validValues": [
+      "<'border-top-style'>"
+    ],
+    "initialValue": "none"
+  },
+  "border-inline-end-width": {
+    "validValues": [
+      "<color>+",
+      "none"
+    ],
+    "initialValue": "none"
+  },
+  "border-inline-start-color": {
+    "validValues": [
+      "<'border-top-color'>"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "border-inline-start-style": {
+    "validValues": [
+      "<color>+",
+      "none"
+    ],
+    "initialValue": "none"
+  },
+  "border-inline-start-width": {
+    "validValues": [
+      "<'border-top-width'>"
+    ],
+    "initialValue": "medium"
+  },
+  "border-inline-style": {
+    "validValues": [
+      "<'border-top-style'>"
+    ],
+    "initialValue": "none"
+  },
+  "border-inline-width": {
+    "validValues": [
+      "<'border-top-width'>"
+    ],
+    "initialValue": "medium"
+  },
+  "border-left-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "border-left-style": {
+    "validValues": [
+      "<line-style>"
+    ],
+    "initialValue": "none"
+  },
+  "border-left-width": {
+    "validValues": [
+      "<line-width>"
+    ],
+    "initialValue": "medium"
+  },
+  "border-right-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "border-right-style": {
+    "validValues": [
+      "<line-style>"
+    ],
+    "initialValue": "none"
+  },
+  "border-right-width": {
+    "validValues": [
+      "<line-width>"
+    ],
+    "initialValue": "medium"
+  },
+  "border-spacing": {
+    "validValues": [
+      "<length> <length>?"
+    ],
+    "initialValue": "0"
+  },
+  "border-start-end-radius": {
+    "validValues": [
+      "<length-percentage>{1,2}"
+    ],
+    "initialValue": "0"
+  },
+  "border-start-start-radius": {
+    "validValues": [
+      "<length-percentage>{1,2}"
+    ],
+    "initialValue": "0"
+  },
+  "border-style": {
+    "validValues": [
+      "none",
+      "hidden",
+      "dotted",
+      "dashed",
+      "solid",
+      "double",
+      "groove",
+      "ridge",
+      "inset",
+      "outset",
+      "initial",
+      "inherit"
+    ]
+  },
+  "border-top-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "border-top-left-radius": {
+    "validValues": [
+      "<length-percentage>{1,2}"
+    ],
+    "initialValue": "0"
+  },
+  "border-top-right-radius": {
+    "validValues": [
+      "<length-percentage>{1,2}"
+    ],
+    "initialValue": "0"
+  },
+  "border-top-style": {
+    "validValues": [
+      "<line-style>"
+    ],
+    "initialValue": "none"
+  },
+  "border-top-width": {
+    "validValues": [
+      "<line-width>"
+    ],
+    "initialValue": "medium"
+  },
+  "bottom": {
+    "validValues": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
+    "initialValue": "auto"
+  },
+  "box-decoration-break": {
+    "validValues": [
+      "slice",
+      "clone"
+    ],
+    "initialValue": "slice"
+  },
+  "box-shadow": {
+    "validValues": [
+      "border-box",
+      "content-box",
+      "margin-box",
+      "padding-box"
+    ],
+    "initialValue": "content-box"
+  },
+  "box-sizing": {
+    "validValues": [
+      "content-box",
+      "border-box"
+    ],
+    "initialValue": "content-box"
+  },
+  "break-after": {
+    "validValues": [
+      "auto",
+      "avoid",
+      "always",
+      "all",
+      "avoid-page",
+      "page",
+      "left",
+      "right",
+      "recto",
+      "verso",
+      "avoid-column",
+      "column",
+      "avoid-region",
+      "region"
+    ],
+    "initialValue": "auto"
+  },
+  "break-before": {
+    "validValues": [
+      "auto",
+      "avoid",
+      "always",
+      "all",
+      "avoid-page",
+      "page",
+      "left",
+      "right",
+      "recto",
+      "verso",
+      "avoid-column",
+      "column",
+      "avoid-region",
+      "region"
+    ],
+    "initialValue": "auto"
+  },
+  "break-inside": {
+    "validValues": [
+      "auto",
+      "avoid",
+      "avoid-page",
+      "avoid-column",
+      "avoid-region"
+    ],
+    "initialValue": "auto"
+  },
+  "caption-side": {
+    "validValues": [
+      "top",
+      "bottom",
+      "block-start",
+      "block-end",
+      "inline-start",
+      "inline-end"
+    ],
+    "initialValue": "top"
+  },
+  "caret-color": {
+    "validValues": [
+      "auto",
+      "<color>"
+    ],
+    "initialValue": "auto"
+  },
+  "clear": {
+    "validValues": [
+      "none",
+      "left",
+      "right",
+      "both",
+      "inline-start",
+      "inline-end"
+    ],
+    "initialValue": "none"
+  },
+  "clip-path": {
+    "validValues": [
+      "<clip-source>",
+      "<basic-shape> || <geometry-box>",
+      "none"
+    ],
+    "initialValue": "none"
+  },
+  "color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "canvastext"
+  },
+  "print-color-adjust": {
+    "validValues": [
+      "economy",
+      "exact"
+    ],
+    "initialValue": "economy"
+  },
+  "color-scheme": {
+    "validValues": [
+      "normal",
+      "light",
+      "dark",
+      "<custom-ident>+ && only?"
+    ],
+    "initialValue": "normal"
+  },
+  "column-count": {
+    "validValues": [
+      "<integer>",
+      "auto"
+    ],
+    "initialValue": "auto"
+  },
+  "column-fill": {
+    "validValues": [
+      "auto",
+      "balance",
+      "balance-all"
+    ],
+    "initialValue": "balance"
+  },
+  "column-gap": {
+    "validValues": [
+      "<length-percentage>"
+    ],
+    "initialValue": "0"
+  },
+  "column-rule-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "column-rule-style": {
+    "validValues": [
+      "<'border-style'>"
+    ],
+    "initialValue": "none"
+  },
+  "column-rule-width": {
+    "validValues": [
+      "<'border-width'>"
+    ],
+    "initialValue": "medium"
+  },
+  "column-span": {
+    "validValues": [
+      "none",
+      "all"
+    ],
+    "initialValue": "none"
+  },
+  "column-width": {
+    "validValues": [
+      "<length>",
+      "auto"
+    ],
+    "initialValue": "auto"
+  },
+  "contain": {
+    "validValues": [
+      "none",
+      "strict",
+      "content",
+      "size || layout || style || paint"
+    ],
+    "initialValue": "none"
+  },
+  "content": {
+    "validValues": [
+      "normal",
+      "none",
+      "<content-replacement>",
+      "<content-list> [/ <string>",
+      "<counter>+?"
+    ],
+    "initialValue": "normal"
+  },
+  "content-visibility": {
+    "validValues": [
+      "visible",
+      "auto",
+      "hidden"
+    ],
+    "initialValue": "visible"
+  },
+  "counter-increment": {
+    "validValues": [
+      "<counter-name> <integer>?+",
+      "none"
+    ],
+    "initialValue": "none"
+  },
+  "counter-reset": {
+    "validValues": [
+      "<counter-name> <integer>?",
+      "<reversed-counter-name> <integer>?+",
+      "none"
+    ],
+    "initialValue": "none"
+  },
+  "counter-set": {
+    "validValues": [
+      "<counter-name> <integer>?+",
+      "none"
+    ],
+    "initialValue": "none"
+  },
+  "cursor": {
+    "validValues": [
+      "<url> <x> <y>? ,* auto",
+      "default",
+      "none",
+      "context-menu",
+      "help",
+      "pointer",
+      "progress",
+      "wait",
+      "cell",
+      "crosshair",
+      "text",
+      "vertical-text",
+      "alias",
+      "copy",
+      "move",
+      "no-drop",
+      "not-allowed",
+      "e-resize",
+      "n-resize",
+      "ne-resize",
+      "nw-resize",
+      "s-resize",
+      "se-resize",
+      "sw-resize",
+      "w-resize",
+      "ew-resize",
+      "ns-resize",
+      "nesw-resize",
+      "nwse-resize",
+      "col-resize",
+      "row-resize",
+      "all-scroll",
+      "zoom-in",
+      "zoom-out",
+      "grab",
+      "grabbing"
+    ],
+    "initialValue": "auto"
+  },
+  "direction": {
+    "validValues": [
+      "ltr",
+      "rtl"
+    ],
+    "initialValue": "ltr"
+  },
+  "display": {
+    "validValues": {
+        "inline": "inline",
+        "block": "block",
+        "contents": "contents",
+        "flex": "flex",
+        "grid": "grid",
+        "inline-block": "inline-block",
+        "inline-flex": "inline-flex",
+        "inline-grid": "inline-grid",
+        "inline-table": "inline-table",
+        "list-item": "list-item",
+        "run-in": "run-in",
+        "table": "table",
+        "table-caption": "table-caption",
+        "table-column-group": "table-column-group",
+        "table-header-group": "table-header-group",
+        "table-footer-group": "table-footer-group",
+        "table-row-group": "table-row-group",
+        "table-cell": "table-cell",
+        "table-column": "table-column",
+        "table-row": "table-row",
+        "none": "none",
+        "initial": "initial",
+        "inherit": "inherit"
+    },
+    "initialValue": "inline"
+  },
+  "empty-cells": {
+    "validValues": [
+      "show",
+      "hide"
+    ],
+    "initialValue": "show"
+  },
+  "filter": {
+    "validValues": [
+      "none",
+      "<filter-function-list>"
+    ],
+    "initialValue": "none"
+  },
+  "flex-basis": {
+    "validValues": [
+      "content",
+      "<'width'>"
+    ],
+    "initialValue": "auto"
+  },
+  "flex-direction": {
+    "validValues": {
+      "row": "row",
+      "row-reverse": "row-reverse",
+      "column": "column",
+      "column-reverse": "column-reverse",
+      "initial": "initial",
+      "inherit": "inherit"
+    },
+    "initialValue": "row"
+  },
+  "flex-grow": {
+    "validValues": [
+      "<number>"
+    ],
+    "initialValue": "0"
+  },
+  "flex-shrink": {
+    "validValues": [
+      "<number>"
+    ],
+    "initialValue": "1"
+  },
+  "flex-wrap": {
+    "validValues": [
+      "nowrap",
+      "wrap",
+      "wrap-reverse"
+    ],
+    "initialValue": "nowrap"
+  },
+  "float": {
+    "validValues": [
+      "left",
+      "right",
+      "none",
+      "inline-start",
+      "inline-end"
+    ],
+    "initialValue": "none"
+  },
+  "font-family": {
+    "validValues": [
+      "<family-name>",
+      "<generic-family>#"
+    ],
+    "initialValue": "depends on user agent\n"
+  },
+  "font-feature-settings": {
+    "validValues": [
+      "normal",
+      "<feature-tag-value>#"
+    ],
+    "initialValue": "normal"
+  },
+  "font-kerning": {
+    "validValues": [
+      "auto",
+      "normal",
+      "none"
+    ],
+    "initialValue": "auto"
+  },
+  "font-language-override": {
+    "validValues": [
+      "normal",
+      "<string>"
+    ],
+    "initialValue": "normal"
+  },
+  "font-optical-sizing": {
+    "validValues": [
+      "auto",
+      "none"
+    ],
+    "initialValue": "auto"
+  },
+  "font-size": {
+    "validValues": [
+      "<absolute-size>",
+      "<relative-size>",
+      "<length-percentage>"
+    ],
+    "initialValue": "medium"
+  },
+  "font-size-adjust": {
+    "validValues": [
+      "none",
+      "ex-height",
+      "cap-height",
+      "ch-width",
+      "ic-width",
+      "ic-height? from-font",
+      "<number>"
+    ],
+    "initialValue": "none"
+  },
+  "font-smooth": {
+    "validValues": [
+      "auto",
+      "never",
+      "always",
+      "<absolute-size>",
+      "<length>"
+    ],
+    "initialValue": "auto"
+  },
+  "font-stretch": {
+    "validValues": [
+      "<font-stretch-absolute>"
+    ],
+    "initialValue": "normal"
+  },
+  "font-style": {
+    "validValues": [
+      "normal",
+      "italic",
+      "oblique <angle>?"
+    ],
+    "initialValue": "normal"
+  },
+  "font-synthesis": {
+    "validValues": [
+      "none",
+      "weight || style || small-caps"
+    ],
+    "initialValue": "weight style"
+  },
+  "font-variant": {
+    "validValues": [
+      "normal",
+      "none",
+      "<common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic( <feature-value-name> ) || historical-forms || styleset( <feature-value-name># ) || character-variant( <feature-value-name># ) || swash( <feature-value-name> ) || ornaments( <feature-value-name> ) || annotation( <feature-value-name> ) || small-caps",
+      "all-small-caps",
+      "petite-caps",
+      "all-petite-caps",
+      "unicase",
+      "titling-caps || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby"
+    ],
+    "initialValue": "normal"
+  },
+  "font-variant-alternates": {
+    "validValues": [
+      "normal",
+      "stylistic( <feature-value-name> ) || historical-forms || styleset( <feature-value-name># ) || character-variant( <feature-value-name># ) || swash( <feature-value-name> ) || ornaments( <feature-value-name> ) || annotation( <feature-value-name> )"
+    ],
+    "initialValue": "normal"
+  },
+  "font-variant-caps": {
+    "validValues": [
+      "normal",
+      "small-caps",
+      "all-small-caps",
+      "petite-caps",
+      "all-petite-caps",
+      "unicase",
+      "titling-caps"
+    ],
+    "initialValue": "normal"
+  },
+  "font-variant-east-asian": {
+    "validValues": [
+      "normal",
+      "<east-asian-variant-values> || <east-asian-width-values> || ruby"
+    ],
+    "initialValue": "normal"
+  },
+  "font-variant-ligatures": {
+    "validValues": [
+      "normal",
+      "none",
+      "<common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values>"
+    ],
+    "initialValue": "normal"
+  },
+  "font-variant-numeric": {
+    "validValues": [
+      "normal",
+      "<numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero"
+    ],
+    "initialValue": "normal"
+  },
+  "font-variant-position": {
+    "validValues": [
+      "normal",
+      "sub",
+      "super"
+    ],
+    "initialValue": "normal"
+  },
+  "font-variation-settings": {
+    "validValues": [
+      "normal",
+      "<string> <number>#"
+    ],
+    "initialValue": "normal"
+  },
+  "font-weight": {
+    "validValues": [
+      "<font-weight-absolute>",
+      "bolder",
+      "lighter"
+    ],
+    "initialValue": "normal"
+  },
+  "forced-color-adjust": {
+    "validValues": [
+      "auto",
+      "none"
+    ],
+    "initialValue": "auto"
+  },
+  "grid-auto-columns": {
+    "validValues": [
+      "<track-size>+"
+    ],
+    "initialValue": "auto"
+  },
+  "grid-auto-flow": {
+    "validValues": [
+      "row",
+      "column || dense"
+    ],
+    "initialValue": "row"
+  },
+  "grid-auto-rows": {
+    "validValues": [
+      "<track-size>+"
+    ],
+    "initialValue": "auto"
+  },
+  "grid-column-end": {
+    "validValues": [
+      "<grid-line>"
+    ],
+    "initialValue": "auto"
+  },
+  "grid-column-start": {
+    "validValues": [
+      "<grid-line>"
+    ],
+    "initialValue": "auto"
+  },
+  "grid-row-end": {
+    "validValues": [
+      "<grid-line>"
+    ],
+    "initialValue": "auto"
+  },
+  "grid-row-start": {
+    "validValues": [
+      "<grid-line>"
+    ],
+    "initialValue": "auto"
+  },
+  "grid-template-areas": {
+    "validValues": [
+      "none",
+      "<string>+"
+    ],
+    "initialValue": "none"
+  },
+  "grid-template-columns": {
+    "validValues": [
+      "none",
+      "<track-list>",
+      "<auto-track-list>"
+    ],
+    "initialValue": "none"
+  },
+  "grid-template-rows": {
+    "validValues": [
+      "none",
+      "<track-list>",
+      "<auto-track-list>"
+    ],
+    "initialValue": "none"
+  },
+  "hanging-punctuation": {
+    "validValues": [
+      "none",
+      "first || force-end",
+      "allow-end || last"
+    ],
+    "initialValue": "none"
+  },
+  "height": {
+    "validValues": [
+      "auto",
+      "<length>",
+      "<percentage>",
+      "min-content",
+      "max-content",
+      "fit-content",
+      "fit-content(<length-percentage>)"
+    ],
+    "initialValue": "auto"
+  },
+  "hyphenate-character": {
+    "validValues": [
+      "auto",
+      "<string>"
+    ],
+    "initialValue": "auto"
+  },
+  "hyphens": {
+    "validValues": [
+      "normal",
+      "<number> <integer>?"
+    ],
+    "initialValue": "normal"
+  },
+  "image-orientation": {
+    "validValues": [
+      "from-image",
+      "<angle>",
+      "<angle>? flip"
+    ],
+    "initialValue": "from-image"
+  },
+  "image-rendering": {
+    "validValues": [
+      "normal",
+      "<number> <integer>?"
+    ],
+    "initialValue": "normal"
+  },
+  "inline-size": {
+    "validValues": [
+      "auto",
+      "none"
+    ],
+    "initialValue": "auto"
+  },
+  "inset": {
+    "validValues": [
+      "<'top'>{1,4}"
+    ],
+    "initialValue": "auto"
+  },
+  "inset-block": {
+    "validValues": [
+      "<'top'>{1,2}"
+    ],
+    "initialValue": "auto"
+  },
+  "inset-block-end": {
+    "validValues": [
+      "<'top'>"
+    ],
+    "initialValue": "auto"
+  },
+  "inset-block-start": {
+    "validValues": [
+      "<'top'>"
+    ],
+    "initialValue": "auto"
+  },
+  "inset-inline": {
+    "validValues": [
+      "<'top'>{1,2}"
+    ],
+    "initialValue": "auto"
+  },
+  "inset-inline-end": {
+    "validValues": [
+      "<'top'>"
+    ],
+    "initialValue": "auto"
+  },
+  "inset-inline-start": {
+    "validValues": [
+      "<'top'>"
+    ],
+    "initialValue": "auto"
+  },
+  "isolation": {
+    "validValues": [
+      "auto",
+      "isolate"
+    ],
+    "initialValue": "auto"
+  },
+  "justify-content": {
+    "validValues": [
+      "flex-start",
+      "flex-end",
+      "center",
+      "space-between",
+      "space-around",
+      "space-evenly",
+      "initial",
+      "inherit"
+    ],
+    "initialValue": "normal"
+  },
+  "justify-items": {
+    "validValues": [
+      "normal",
+      "stretch",
+      "<baseline-position>",
+      "<overflow-position>? <self-position>",
+      "left",
+      "right",
+      "legacy",
+      "legacy && left",
+      "right",
+      "center"
+    ],
+    "initialValue": "legacy"
+  },
+  "justify-self": {
+    "validValues": [
+      "auto",
+      "normal",
+      "stretch",
+      "<baseline-position>",
+      "<overflow-position>? <self-position>",
+      "left",
+      "right"
+    ],
+    "initialValue": "auto"
+  },
+  "justify-tracks": {
+    "validValues": [
+      "normal",
+      "<content-distribution>",
+      "<overflow-position>? <content-position>",
+      "left",
+      "right#"
+    ],
+    "initialValue": "normal"
+  },
+  "left": {
+    "validValues": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
+    "initialValue": "auto"
+  },
+  "letter-spacing": {
+    "validValues": [
+      "normal",
+      "<length>"
+    ],
+    "initialValue": "normal"
+  },
+  "line-break": {
+    "validValues": [
+      "auto",
+      "loose",
+      "normal",
+      "strict",
+      "anywhere"
+    ],
+    "initialValue": "auto"
+  },
+  "line-height": {
+    "validValues": [
+      "normal",
+      "<number>",
+      "<length>",
+      "<percentage>"
+    ],
+    "initialValue": "normal"
+  },
+  "line-height-step": {
+    "validValues": [
+      "<length>"
+    ],
+    "initialValue": "0"
+  },
+  "list-style-image": {
+    "validValues": [
+      "<image>",
+      "none"
+    ],
+    "initialValue": "none"
+  },
+  "list-style-position": {
+    "validValues": [
+      "inside",
+      "outside"
+    ],
+    "initialValue": "outside"
+  },
+  "list-style-type": {
+    "validValues": [
+      "<counter-style>",
+      "<string>",
+      "none"
+    ],
+    "initialValue": "disc"
+  },
+  "margin-block": {
+    "validValues": [
+      "<'margin-left'>{1,2}"
+    ],
+    "initialValue": "0"
+  },
+  "margin-block-end": {
+    "validValues": [
+      "<'margin-left'>"
+    ],
+    "initialValue": "0"
+  },
+  "margin-block-start": {
+    "validValues": [
+      "<'margin-left'>"
+    ],
+    "initialValue": "0"
+  },
+  "margin-bottom": {
+    "validValues": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
+    "initialValue": "0"
+  },
+  "margin-inline": {
+    "validValues": [
+      "<'margin-left'>{1,2}"
+    ],
+    "initialValue": "0"
+  },
+  "margin-inline-end": {
+    "validValues": [
+      "<'margin-left'>"
+    ],
+    "initialValue": "0"
+  },
+  "margin-inline-start": {
+    "validValues": [
+      "<attachment>#"
+    ],
+    "initialValue": "scroll"
+  },
+  "margin-left": {
+    "validValues": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
+    "initialValue": "0"
+  },
+  "margin-right": {
+    "validValues": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
+    "initialValue": "0"
+  },
+  "margin-top": {
+    "validValues": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
+    "initialValue": "0"
+  },
+  "mask-border-mode": {
+    "validValues": [
+      "luminance",
+      "alpha"
+    ],
+    "initialValue": "alpha"
+  },
+  "mask-border-outset": {
+    "validValues": [
+      "<length>",
+      "<number>{1,4}"
+    ],
+    "initialValue": "0"
+  },
+  "mask-border-repeat": {
+    "validValues": [
+      "stretch",
+      "repeat",
+      "round",
+      "space{1,2}"
+    ],
+    "initialValue": "stretch"
+  },
+  "mask-border-slice": {
+    "validValues": [
+      "<number-percentage>{1,4} fill?"
+    ],
+    "initialValue": "0"
+  },
+  "mask-border-source": {
+    "validValues": [
+      "none",
+      "<image>"
+    ],
+    "initialValue": "none"
+  },
+  "mask-border-width": {
+    "validValues": [
+      "<length-percentage>",
+      "<number>",
+      "auto{1,4}"
+    ],
+    "initialValue": "auto"
+  },
+  "mask-clip": {
+    "validValues": [
+      "<box>",
+      "border",
+      "padding",
+      "content",
+      "text#"
+    ],
+    "initialValue": "border"
+  },
+  "mask-composite": {
+    "validValues": [
+      "<compositing-operator>#"
+    ],
+    "initialValue": "add"
+  },
+  "mask-image": {
+    "validValues": [
+      "<mask-reference>#"
+    ],
+    "initialValue": "none"
+  },
+  "mask-mode": {
+    "validValues": [
+      "<masking-mode>#"
+    ],
+    "initialValue": "match-source"
+  },
+  "mask-origin": {
+    "validValues": [
+      "<box>",
+      "border",
+      "padding",
+      "content#"
+    ],
+    "initialValue": "padding"
+  },
+  "mask-position": {
+    "validValues": [
+      "<length-percentage>",
+      "top",
+      "center",
+      "bottom#"
+    ],
+    "initialValue": "0%"
+  },
+  "mask-repeat": {
+    "validValues": [
+      "repeat",
+      "no-repeat",
+      "space",
+      "round"
+    ],
+    "initialValue": "repeat"
+  },
+  "mask-size": {
+    "validValues": [
+      "<bg-size>#"
+    ],
+    "initialValue": "auto auto"
+  },
+  "mask-type": {
+    "validValues": [
+      "normal",
+      "compact"
+    ],
+    "initialValue": "normal"
+  },
+  "max-block-size": {
+    "validValues": [
+      "<'max-width'>"
+    ],
+    "initialValue": "none"
+  },
+  "max-height": {
+    "validValues": [
+      "none",
+      "<length-percentage>",
+      "min-content",
+      "max-content",
+      "fit-content",
+      "fit-content(<length-percentage>)"
+    ],
+    "initialValue": "none"
+  },
+  "max-inline-size": {
+    "validValues": [
+      "<'max-width'>"
+    ],
+    "initialValue": "none"
+  },
+  "max-width": {
+    "validValues": [
+      "none",
+      "<length-percentage>",
+      "min-content",
+      "max-content",
+      "fit-content",
+      "fit-content(<length-percentage>)"
+    ],
+    "initialValue": "none"
+  },
+  "min-block-size": {
+    "validValues": [
+      "<'min-width'>"
+    ],
+    "initialValue": "0"
+  },
+  "min-height": {
+    "validValues": [
+      "auto",
+      "<length>",
+      "<percentage>",
+      "min-content",
+      "max-content",
+      "fit-content",
+      "fit-content(<length-percentage>)"
+    ],
+    "initialValue": "auto"
+  },
+  "min-inline-size": {
+    "validValues": [
+      "<'min-width'>"
+    ],
+    "initialValue": "0"
+  },
+  "min-width": {
+    "validValues": [
+      "auto",
+      "<length>",
+      "<percentage>",
+      "min-content",
+      "max-content",
+      "fit-content",
+      "fit-content(<length-percentage>)"
+    ],
+    "initialValue": "auto"
+  },
+  "mix-blend-mode": {
+    "validValues": [
+      "<blend-mode>",
+      "plus-lighter"
+    ],
+    "initialValue": "normal"
+  },
+  "offset-distance": {
+    "validValues": [
+      "<length-percentage>"
+    ],
+    "initialValue": "0"
+  },
+  "offset-path": {
+    "validValues": [
+      "none",
+      "ray( <angle> && <size> && contain? )",
+      "<path()>",
+      "<url>",
+      "<basic-shape> || <geometry-box>"
+    ],
+    "initialValue": "none"
+  },
+  "offset-rotate": {
+    "validValues": [
+      "auto",
+      "reverse || <angle>"
+    ],
+    "initialValue": "auto"
+  },
+  "object-fit": {
+    "validValues": [
+      "fill",
+      "contain",
+      "cover",
+      "none",
+      "scale-down"
+    ],
+    "initialValue": "fill"
+  },
+  "object-position": {
+    "validValues": [
+      "<position>"
+    ],
+    "initialValue": "50% 50%"
+  },
+  "opacity": {
+    "validValues": [
+      "<alpha-value>"
+    ],
+    "initialValue": "1"
+  },
+  "order": {
+    "validValues": [
+      "auto",
+      "touch"
+    ],
+    "initialValue": "auto"
+  },
+  "orphans": {
+    "validValues": [
+      "<integer>"
+    ],
+    "initialValue": "2"
+  },
+  "outline-color": {
+    "validValues": [
+      "<outline-radius>"
+    ],
+    "initialValue": "0"
+  },
+  "outline-offset": {
+    "validValues": [
+      "<length>"
+    ],
+    "initialValue": "0"
+  },
+  "outline-style": {
+    "validValues": [
+      "auto",
+      "<'border-style'>"
+    ],
+    "initialValue": "none"
+  },
+  "outline-width": {
+    "validValues": [
+      "<line-width>"
+    ],
+    "initialValue": "medium"
+  },
+  "overflow-clip-box": {
+    "validValues": [
+      "visible",
+      "hidden",
+      "clip",
+      "scroll",
+      "auto"
+    ],
+    "initialValue": "auto"
+  },
+  "overflow-wrap": {
+    "validValues": [
+      "normal",
+      "break-word"
+    ],
+    "initialValue": "normal"
+  },
+  "overflow-x": {
+    "validValues": [
+      "visible",
+      "hidden",
+      "clip",
+      "scroll",
+      "auto"
+    ],
+    "initialValue": "visible"
+  },
+  "overflow-y": {
+    "validValues": [
+      "auto",
+      "<length>"
+    ],
+    "initialValue": "auto"
+  },
+  "overscroll-behavior-block": {
+    "validValues": [
+      "contain",
+      "none",
+      "auto"
+    ],
+    "initialValue": "auto"
+  },
+  "overscroll-behavior-inline": {
+    "validValues": [
+      "contain",
+      "none",
+      "auto"
+    ],
+    "initialValue": "auto"
+  },
+  "overscroll-behavior-x": {
+    "validValues": [
+      "contain",
+      "none",
+      "auto"
+    ],
+    "initialValue": "auto"
+  },
+  "overscroll-behavior-y": {
+    "validValues": [
+      "contain",
+      "none",
+      "auto"
+    ],
+    "initialValue": "auto"
+  },
+  "padding-block": {
+    "validValues": [
+      "<'padding-left'>{1,2}"
+    ],
+    "initialValue": "0"
+  },
+  "padding-block-end": {
+    "validValues": [
+      "<'padding-left'>"
+    ],
+    "initialValue": "0"
+  },
+  "padding-block-start": {
+    "validValues": [
+      "<'padding-left'>"
+    ],
+    "initialValue": "0"
+  },
+  "padding-bottom": {
+    "validValues": [
+      "<length>",
+      "<percentage>"
+    ],
+    "initialValue": "0"
+  },
+  "padding-inline": {
+    "validValues": [
+      "<'padding-left'>{1,2}"
+    ],
+    "initialValue": "0"
+  },
+  "padding-inline-end": {
+    "validValues": [
+      "<'padding-left'>"
+    ],
+    "initialValue": "0"
+  },
+  "padding-inline-start": {
+    "validValues": [
+      "<'padding-left'>"
+    ],
+    "initialValue": "0"
+  },
+  "padding-left": {
+    "validValues": [
+      "<length>",
+      "<percentage>"
+    ],
+    "initialValue": "0"
+  },
+  "padding-right": {
+    "validValues": [
+      "<length>",
+      "<percentage>"
+    ],
+    "initialValue": "0"
+  },
+  "padding-top": {
+    "validValues": [
+      "<length>",
+      "<percentage>"
+    ],
+    "initialValue": "0"
+  },
+  "page-break-after": {
+    "validValues": [
+      "auto",
+      "always",
+      "avoid",
+      "left",
+      "right",
+      "recto",
+      "verso"
+    ],
+    "initialValue": "auto"
+  },
+  "page-break-before": {
+    "validValues": [
+      "auto",
+      "always",
+      "avoid",
+      "left",
+      "right",
+      "recto",
+      "verso"
+    ],
+    "initialValue": "auto"
+  },
+  "page-break-inside": {
+    "validValues": [
+      "auto",
+      "avoid"
+    ],
+    "initialValue": "auto"
+  },
+  "paint-order": {
+    "validValues": [
+      "normal",
+      "fill || stroke || markers"
+    ],
+    "initialValue": "normal"
+  },
+  "perspective": {
+    "validValues": [
+      "none",
+      "<length>"
+    ],
+    "initialValue": "none"
+  },
+  "perspective-origin": {
+    "validValues": [
+      "<position>"
+    ],
+    "initialValue": "50% 50%"
+  },
+  "place-content": {
+    "validValues": [
+      "<'align-content'> <'justify-content'>?"
+    ],
+    "initialValue": "normal"
+  },
+  "pointer-events": {
+    "validValues": [
+      "auto",
+      "none",
+      "visiblePainted",
+      "visibleFill",
+      "visibleStroke",
+      "visible",
+      "painted",
+      "fill",
+      "stroke",
+      "all",
+      "inherit"
+    ],
+    "initialValue": "auto"
+  },
+  "position": {
+    "validValues": [
+      "static",
+      "absolute",
+      "fixed",
+      "relative",
+      "sticky",
+      "initial",
+      "inherit"
+    ],
+    "initialValue": "static"
+  },
+  "quotes": {
+    "validValues": [
+      "none",
+      "auto",
+      "<string> <string>+"
+    ],
+    "initialValue": "depends on user agent\n"
+  },
+  "resize": {
+    "validValues": [
+      "none",
+      "both",
+      "horizontal",
+      "vertical",
+      "block",
+      "inline"
+    ],
+    "initialValue": "none"
+  },
+  "right": {
+    "validValues": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
+    "initialValue": "auto"
+  },
+  "rotate": {
+    "validValues": [
+      "none",
+      "<angle>",
+      "x",
+      "y",
+      "z",
+      "<number>{3} && <angle>"
+    ],
+    "initialValue": "none"
+  },
+  "row-gap": {
+    "validValues": [
+      "<length-percentage>"
+    ],
+    "initialValue": "0"
+  },
+  "ruby-align": {
+    "validValues": [
+      "separate",
+      "collapse",
+      "auto"
+    ],
+    "initialValue": "separate"
+  },
+  "ruby-position": {
+    "validValues": [
+      "alternate || over",
+      "under",
+      "inter-character"
+    ],
+    "initialValue": "alternate"
+  },
+  "scale": {
+    "validValues": [
+      "none",
+      "<number>{1,3}"
+    ],
+    "initialValue": "none"
+  },
+  "scroll-behavior": {
+    "validValues": [
+      "auto",
+      "smooth"
+    ],
+    "initialValue": "auto"
+  },
+  "scroll-margin": {
+    "validValues": [
+      "<length>"
+    ],
+    "initialValue": "0"
+  },
+  "scroll-padding": {
+    "validValues": [
+      "auto",
+      "<length-percentage>"
+    ],
+    "initialValue": "auto"
+  },
+  "scroll-padding-top": {
+    "validValues": [
+      "none",
+      "start",
+      "end",
+      "center{1,2}"
+    ],
+    "initialValue": "none"
+  },
+  "scroll-snap-stop": {
+    "validValues": [
+      "normal",
+      "always"
+    ],
+    "initialValue": "normal"
+  },
+  "scroll-snap-type": {
+    "validValues": [
+      "none",
+      "x",
+      "y",
+      "block",
+      "inline",
+      "both mandatory",
+      "proximity?"
+    ],
+    "initialValue": "none"
+  },
+  "scrollbar-color": {
+    "validValues": [
+      "auto",
+      "<color>{2}"
+    ],
+    "initialValue": "auto"
+  },
+  "scrollbar-gutter": {
+    "validValues": [
+      "auto",
+      "stable && both-edges?"
+    ],
+    "initialValue": "auto"
+  },
+  "scrollbar-width": {
+    "validValues": [
+      "auto",
+      "thin",
+      "none"
+    ],
+    "initialValue": "auto"
+  },
+  "shape-image-threshold": {
+    "validValues": [
+      "<alpha-value>"
+    ],
+    "initialValue": "0.0"
+  },
+  "shape-margin": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "black"
+  },
+  "shape-outside": {
+    "validValues": [
+      "none",
+      "<shape-box> || <basic-shape>",
+      "<image>"
+    ],
+    "initialValue": "none"
+  },
+  "tab-size": {
+    "validValues": [
+      "<integer>",
+      "<length>"
+    ],
+    "initialValue": "8"
+  },
+  "table-layout": {
+    "validValues": [
+      "auto",
+      "fixed"
+    ],
+    "initialValue": "auto"
+  },
+  "text-align": {
+    "validValues": [
+      "start",
+      "end",
+      "left",
+      "right",
+      "center",
+      "justify",
+      "match-parent"
+    ],
+    "initialValue": "start"
+  },
+  "text-align-last": {
+    "validValues": [
+      "auto",
+      "start",
+      "end",
+      "left",
+      "right",
+      "center",
+      "justify"
+    ],
+    "initialValue": "auto"
+  },
+  "text-combine-upright": {
+    "validValues": [
+      "none",
+      "all",
+      "digits <integer>?"
+    ],
+    "initialValue": "none"
+  },
+  "text-decoration-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "text-decoration-line": {
+    "validValues": [
+      "none",
+      "underline || overline || line-through || blink",
+      "spelling-error",
+      "grammar-error"
+    ],
+    "initialValue": "none"
+  },
+  "text-decoration-skip": {
+    "validValues": [
+      "none",
+      "objects || spaces",
+      "leading-spaces || trailing-spaces || edges || box-decoration"
+    ],
+    "initialValue": "objects"
+  },
+  "text-decoration-skip-ink": {
+    "validValues": [
+      "auto",
+      "all",
+      "none"
+    ],
+    "initialValue": "auto"
+  },
+  "text-decoration-style": {
+    "validValues": [
+      "auto",
+      "none",
+      "enabled",
+      "disabled"
+    ],
+    "initialValue": "auto"
+  },
+  "text-decoration-thickness": {
+    "validValues": [
+      "auto",
+      "from-font",
+      "<length>",
+      "<percentage> "
+    ],
+    "initialValue": "auto"
+  },
+  "text-emphasis-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "text-emphasis-position": {
+    "validValues": [
+      "over",
+      "under && right",
+      "left"
+    ],
+    "initialValue": "over right"
+  },
+  "text-emphasis-style": {
+    "validValues": [
+      "none",
+      "filled",
+      "open || dot",
+      "circle",
+      "double-circle",
+      "triangle",
+      "sesame",
+      "<string>"
+    ],
+    "initialValue": "none"
+  },
+  "text-indent": {
+    "validValues": [
+      "<length-percentage> && hanging? && each-line?"
+    ],
+    "initialValue": "0"
+  },
+  "text-justify": {
+    "validValues": [
+      "auto",
+      "inter-character",
+      "inter-word",
+      "none"
+    ],
+    "initialValue": "auto"
+  },
+  "text-orientation": {
+    "validValues": [
+      "mixed",
+      "upright",
+      "sideways"
+    ],
+    "initialValue": "mixed"
+  },
+  "text-overflow": {
+    "validValues": [
+      "clip",
+      "ellipsis",
+      "<string>{1,2}"
+    ],
+    "initialValue": "clip"
+  },
+  "text-rendering": {
+    "validValues": [
+      "auto",
+      "optimizeSpeed",
+      "optimizeLegibility",
+      "geometricPrecision"
+    ],
+    "initialValue": "auto"
+  },
+  "text-shadow": {
+    "validValues": [
+      "none",
+      "<shadow-t>#"
+    ],
+    "initialValue": "none"
+  },
+  "text-size-adjust": {
+    "validValues": [
+      "none",
+      "auto",
+      "<percentage>"
+    ],
+    "initialValue": "auto"
+  },
+  "text-transform": {
+    "validValues": [
+      "none",
+      "capitalize",
+      "uppercase",
+      "lowercase",
+      "full-width",
+      "full-size-kana"
+    ],
+    "initialValue": "none"
+  },
+  "text-underline-offset": {
+    "validValues": [
+      "auto",
+      "<length>",
+      "<percentage> "
+    ],
+    "initialValue": "auto"
+  },
+  "text-underline-position": {
+    "validValues": [
+      "default",
+      "none"
+    ],
+    "initialValue": "default"
+  },
+  "top": {
+    "validValues": [
+      "<length>",
+      "<percentage>",
+      "auto"
+    ],
+    "initialValue": "auto"
+  },
+  "touch-action": {
+    "validValues": [
+      "auto",
+      "none",
+      "pan-x",
+      "pan-left",
+      "pan-right || pan-y",
+      "pan-up",
+      "pan-down || pinch-zoom",
+      "manipulation"
+    ],
+    "initialValue": "auto"
+  },
+  "transform": {
+    "validValues": [
+      "none",
+      "<transform-list>"
+    ],
+    "initialValue": "none"
+  },
+  "transform-box": {
+    "validValues": [
+      "content-box",
+      "border-box",
+      "fill-box",
+      "stroke-box",
+      "view-box"
+    ],
+    "initialValue": "view-box"
+  },
+  "transform-origin": {
+    "validValues": [
+      "<length-percentage>",
+      "left",
+      "center",
+      "right",
+      "top",
+      "bottom",
+      "<length-percentage>",
+      "left",
+      "center",
+      "right && <length-percentage>",
+      "top",
+      "center",
+      "bottom <length>?"
+    ],
+    "initialValue": "50% 50% 0"
+  },
+  "transform-style": {
+    "validValues": [
+      "flat",
+      "preserve-3d"
+    ],
+    "initialValue": "flat"
+  },
+  "transition-delay": {
+    "validValues": [
+      "<time>#"
+    ],
+    "initialValue": "0s"
+  },
+  "transition-duration": {
+    "validValues": [
+      "<time>#"
+    ],
+    "initialValue": "0s"
+  },
+  "transition-property": {
+    "validValues": [
+      "none",
+      "<single-transition-property>#"
+    ],
+    "initialValue": "all\n"
+  },
+  "transition-timing-function": {
+    "validValues": [
+      "<easing-function>#"
+    ],
+    "initialValue": "ease"
+  },
+  "translate": {
+    "validValues": [
+      "none",
+      "<length-percentage> <length-percentage> <length>??"
+    ],
+    "initialValue": "none"
+  },
+  "unicode-bidi": {
+    "validValues": [
+      "normal",
+      "embed",
+      "isolate",
+      "bidi-override",
+      "isolate-override",
+      "plaintext"
+    ],
+    "initialValue": "normal"
+  },
+  "user-select": {
+    "validValues": [
+      "auto",
+      "text",
+      "none",
+      "contain",
+      "all"
+    ],
+    "initialValue": "auto"
+  },
+  "vertical-align": {
+    "validValues": [
+      "baseline",
+      "sub",
+      "super",
+      "text-top",
+      "text-bottom",
+      "middle",
+      "top",
+      "bottom",
+      "<percentage>",
+      "<length>"
+    ],
+    "initialValue": "baseline"
+  },
+  "visibility": {
+    "validValues": [
+      "visible",
+      "hidden",
+      "collapse"
+    ],
+    "initialValue": "visible"
+  },
+  "white-space": {
+    "validValues": [
+      "normal",
+      "pre",
+      "nowrap",
+      "pre-wrap",
+      "pre-line",
+      "break-spaces"
+    ],
+    "initialValue": "normal"
+  },
+  "widows": {
+    "validValues": [
+      "<integer>"
+    ],
+    "initialValue": "2"
+  },
+  "width": {
+    "validValues": [
+      "auto",
+      "<length>",
+      "<percentage>",
+      "min-content",
+      "max-content",
+      "fit-content",
+      "fit-content(<length-percentage>)"
+    ],
+    "initialValue": "auto"
+  },
+  "will-change": {
+    "validValues": [
+      "auto",
+      "<animateable-feature>#"
+    ],
+    "initialValue": "auto"
+  },
+  "word-break": {
+    "validValues": [
+      "normal",
+      "break-all",
+      "keep-all",
+      "break-word"
+    ],
+    "initialValue": "normal"
+  },
+  "word-spacing": {
+    "validValues": [
+      "normal",
+      "<length>"
+    ],
+    "initialValue": "normal"
+  },
+  "writing-mode": {
+    "validValues": [
+      "horizontal-tb",
+      "vertical-rl",
+      "vertical-lr",
+      "sideways-rl",
+      "sideways-lr"
+    ],
+    "initialValue": "horizontal-tb"
+  },
+  "z-index": {
+    "validValues": [
+      "normal",
+      "reset",
+      "<number>",
+      "<percentage>"
+    ],
+    "initialValue": "normal"
+  },
+  "all": {
+    "validValues": [
+      "initial",
+      "inherit",
+      "unset",
+      "revert",
+      "revert-layer"
+    ],
+    "initialValue": "There is no practical initial value for it.\n"
+  },
+  "animation": {
+    "validValues": [
+      "<single-animation>#"
+    ]
+  },
+  "background": {
+    "validValues": [
+      "<bg-layer> ,* <final-bg-layer>"
+    ]
+  },
+  "background-position": {
+    "validValues": [
+      "<bg-position>#"
+    ],
+    "initialValue": "0% 0%"
+  },
+  "border": {
+    "validValues": [
+      "<line-width> || <line-style> || <color>"
+    ]
+  },
+  "border-block": {
+    "validValues": [
+      "<'border-top-width'> || <'border-top-style'> || <color>"
+    ]
+  },
+  "border-block-end": {
+    "validValues": [
+      "<'border-top-width'> || <'border-top-style'> || <color>"
+    ]
+  },
+  "border-block-start": {
+    "validValues": [
+      "<'border-top-width'> || <'border-top-style'> || <color>"
+    ]
+  },
+  "border-bottom": {
+    "validValues": [
+      "<line-width> || <line-style> || <color>"
+    ]
+  },
+  "border-color": {
+    "validValues": [
+      "<color>{1,4}"
+    ]
+  },
+  "border-image": {
+    "validValues": [
+      "<'border-image-source'> || <'border-image-slice'> / <'border-image-width'>",
+      "/ <'border-image-width'>? / <'border-image-outset'>? || <'border-image-repeat'>"
+    ]
+  },
+  "border-inline": {
+    "validValues": [
+      "<'border-top-width'> || <'border-top-style'> || <color>"
+    ]
+  },
+  "border-inline-end": {
+    "validValues": [
+      "<'border-top-width'> || <'border-top-style'> || <color>"
+    ]
+  },
+  "border-inline-start": {
+    "validValues": [
+      "<'border-top-width'> || <'border-top-style'> || <color>"
+    ]
+  },
+  "border-left": {
+    "validValues": [
+      "<line-width> || <line-style> || <color>"
+    ]
+  },
+  "border-radius": {
+    "validValues": [
+      "<length-percentage>{1,4} / <length-percentage>{1,4}?"
+    ]
+  },
+  "border-right": {
+    "validValues": [
+      "<line-width> || <line-style> || <color>"
+    ]
+  },
+  "border-top": {
+    "validValues": [
+      "<line-width> || <line-style> || <color>"
+    ]
+  },
+  "border-width": {
+    "validValues": [
+      "<line-width>{1,4}"
+    ]
+  },
+  "column-rule": {
+    "validValues": [
+      "<'column-rule-width'> || <'column-rule-style'> || <'column-rule-color'>"
+    ]
+  },
+  "columns": {
+    "validValues": [
+      "<'column-width'> || <'column-count'>"
+    ]
+  },
+  "flex": {
+    "validValues": [
+      "none",
+      "<'flex-grow'> <'flex-shrink'>? || <'flex-basis'>"
+    ]
+  },
+  "flex-flow": {
+    "validValues": [
+      "<'flex-direction'> || <'flex-wrap'>"
+    ]
+  },
+  "font": {
+    "validValues": [
+      "<'font-style'> || <font-variant-css21> || <'font-weight'> || <'font-stretch'>? <'font-size'> / <'line-height'>? <'font-family'>",
+      "caption",
+      "icon",
+      "menu",
+      "message-box",
+      "small-caption",
+      "status-bar"
+    ]
+  },
+  "gap": {
+    "validValues": [
+      "<'grid-row-gap'> <'grid-column-gap'>?"
+    ]
+  },
+  "grid": {
+    "validValues": [
+      "<'grid-template'>",
+      "<'grid-template-rows'> / auto-flow && dense? <'grid-auto-columns'>?",
+      "auto-flow && dense? <'grid-auto-rows'>? / <'grid-template-columns'>"
+    ]
+  },
+  "grid-area": {
+    "validValues": [
+      "<grid-line> / <grid-line>{0,3}"
+    ]
+  },
+  "grid-column": {
+    "validValues": [
+      "<grid-line> / <grid-line>?"
+    ]
+  },
+  "grid-row": {
+    "validValues": [
+      "<grid-line> / <grid-line>?"
+    ]
+  },
+  "grid-template": {
+    "validValues": [
+      "none",
+      "<integer>"
+    ],
+    "initialValue": "none"
+  },
+  "list-style": {
+    "validValues": [
+      "<'list-style-type'> || <'list-style-position'> || <'list-style-image'>"
+    ]
+  },
+  "margin": {
+    "validValues": [
+      "<length>",
+      "<percentage>",
+      "auto{1,4}"
+    ]
+  },
+  "mask": {
+    "validValues": [
+      "<mask-reference> || <position> / <bg-size>? || <repeat-style> || <box>",
+      "border",
+      "padding",
+      "content",
+      "text || <box>",
+      "border",
+      "padding",
+      "content#"
+    ]
+  },
+  "mask-border": {
+    "validValues": [
+      "<'mask-border-source'> || <'mask-border-slice'> / <'mask-border-width'>? / <'mask-border-outset'>?? || <'mask-border-repeat'> || <'mask-border-mode'>"
+    ]
+  },
+  "offset": {
+    "validValues": [
+      "<'offset-position'>? <'offset-path'> <'offset-distance'> || <'offset-rotate'>??! / <'offset-anchor'>?"
+    ]
+  },
+  "outline": {
+    "validValues": [
+      "<'outline-color'> || <'outline-style'> || <'outline-width'>"
+    ]
+  },
+  "overflow": {
+    "validValues": [
+      "visible",
+      "hidden",
+      "clip",
+      "scroll",
+      "auto{1,2}"
+    ],
+    "initialValue": "visible"
+  },
+  "overscroll-behavior": {
+    "validValues": [
+      "contain",
+      "none",
+      "auto{1,2}"
+    ],
+    "initialValue": "auto"
+  },
+  "padding": {
+    "validValues": [
+      "<length>",
+      "<percentage>{1,4}"
+    ]
+  },
+  "place-items": {
+    "validValues": [
+      "<'align-items'> <'justify-items'>?"
+    ]
+  },
+  "place-self": {
+    "validValues": [
+      "<'align-self'> <'justify-self'>?"
+    ]
+  },
+  "text-decoration": {
+    "validValues": [
+      "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'> || <'text-decoration-thickness'>"
+    ]
+  },
+  "text-emphasis": {
+    "validValues": [
+      "<'text-emphasis-style'> || <'text-emphasis-color'>"
+    ]
+  },
+  "transition": {
+    "validValues": [
+      "<single-transition>#"
+    ]
+  },
+  "-moz-context-properties": {
+    "validValues": [
+      "none",
+      "fill",
+      "fill-opacity",
+      "stroke",
+      "stroke-opacity#"
+    ],
+    "initialValue": "none"
+  },
+  "-moz-orient": {
+    "validValues": [
+      "inline",
+      "block",
+      "horizontal",
+      "vertical"
+    ],
+    "initialValue": "inline"
+  },
+  "-moz-text-blink": {
+    "validValues": [
+      "none",
+      "blink"
+    ],
+    "initialValue": "none"
+  },
+  "-moz-user-focus": {
+    "validValues": [
+      "ignore",
+      "normal",
+      "select-after",
+      "select-before",
+      "select-menu",
+      "select-same",
+      "select-all",
+      "none"
+    ],
+    "initialValue": "none"
+  },
+  "user-modify": {
+    "validValues": [
+      "read-only",
+      "read-write",
+      "write-only"
+    ],
+    "initialValue": "read-only"
+  },
+  "-moz-window-dragging": {
+    "validValues": [
+      "drag",
+      "no-drag"
+    ],
+    "initialValue": "drag"
+  },
+  "-moz-window-shadow": {
+    "validValues": [
+      "default",
+      "menu",
+      "tooltip",
+      "sheet",
+      "none"
+    ],
+    "initialValue": "default"
+  },
+  "-ms-accelerator": {
+    "validValues": [
+      "false",
+      "true"
+    ],
+    "initialValue": "false"
+  },
+  "-ms-block-progression": {
+    "validValues": [
+      "tb",
+      "rl",
+      "bt",
+      "lr"
+    ],
+    "initialValue": "tb"
+  },
+  "-ms-content-zoom-chaining": {
+    "validValues": [
+      "none",
+      "chained"
+    ],
+    "initialValue": "none"
+  },
+  "-ms-content-zoom-limit-max": {
+    "validValues": [
+      "<percentage>"
+    ],
+    "initialValue": "400%"
+  },
+  "-ms-content-zoom-limit-min": {
+    "validValues": [
+      "<percentage>"
+    ],
+    "initialValue": "100%"
+  },
+  "-ms-content-zoom-snap-points": {
+    "validValues": [
+      "snapInterval( <percentage>, <percentage> )",
+      "snapList( <percentage># )"
+    ],
+    "initialValue": "snapInterval(0%, 100%)"
+  },
+  "-ms-content-zoom-snap-type": {
+    "validValues": [
+      "none",
+      "proximity",
+      "mandatory"
+    ],
+    "initialValue": "none"
+  },
+  "-ms-content-zooming": {
+    "validValues": [
+      "<string>"
+    ],
+    "initialValue": "\"\" (the empty string)\n"
+  },
+  "-ms-flow-from": {
+    "validValues": [
+      "none",
+      "<custom-ident>#"
+    ],
+    "initialValue": "none"
+  },
+  "-ms-flow-into": {
+    "validValues": [
+      "none",
+      "<custom-ident>#"
+    ],
+    "initialValue": "none"
+  },
+  "-ms-high-contrast-adjust": {
+    "validValues": [
+      "auto",
+      "none"
+    ],
+    "initialValue": "auto"
+  },
+  "-ms-hyphenate-limit-chars": {
+    "validValues": [
+      "auto",
+      "<integer>{1,3}"
+    ],
+    "initialValue": "auto"
+  },
+  "-ms-hyphenate-limit-lines": {
+    "validValues": [
+      "<percentage>",
+      "<length>"
+    ],
+    "initialValue": "0"
+  },
+  "-ms-ime-align": {
+    "validValues": [
+      "auto",
+      "after"
+    ],
+    "initialValue": "auto"
+  },
+  "-ms-overflow-style": {
+    "validValues": [
+      "auto",
+      "none",
+      "scrollbar",
+      "-ms-autohiding-scrollbar"
+    ],
+    "initialValue": "auto"
+  },
+  "-ms-scroll-limit-x-min": {
+    "validValues": [
+      "<length>"
+    ],
+    "initialValue": "0"
+  },
+  "-ms-scroll-limit-y-max": {
+    "validValues": [
+      "auto",
+      "<length>"
+    ],
+    "initialValue": "auto"
+  },
+  "-ms-scroll-limit-y-min": {
+    "validValues": [
+      "<length>"
+    ],
+    "initialValue": "0"
+  },
+  "-ms-scroll-rails": {
+    "validValues": [
+      "none",
+      "railed"
+    ],
+    "initialValue": "railed"
+  },
+  "-ms-scroll-snap-points-x": {
+    "validValues": [
+      "snapInterval( <length-percentage>, <length-percentage> )",
+      "snapList( <length-percentage># )"
+    ],
+    "initialValue": "snapInterval(0px, 100%)"
+  },
+  "-ms-scroll-snap-points-y": {
+    "validValues": [
+      "snapInterval( <length-percentage>, <length-percentage> )",
+      "snapList( <length-percentage># )"
+    ],
+    "initialValue": "snapInterval(0px, 100%)"
+  },
+  "-ms-scroll-translation": {
+    "validValues": [
+      "none",
+      "vertical-to-horizontal"
+    ],
+    "initialValue": "none"
+  },
+  "-ms-scrollbar-3dlight-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "depends on user agent\n"
+  },
+  "-ms-scrollbar-arrow-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "depends on user agent\n"
+  },
+  "-ms-scrollbar-darkshadow-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "ThreeDHighlight"
+  },
+  "-ms-scrollbar-shadow-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "ThreeDDarkShadow"
+  },
+  "-ms-text-autospace": {
+    "validValues": [
+      "none",
+      "ideograph-alpha",
+      "ideograph-numeric",
+      "ideograph-parenthesis",
+      "ideograph-space"
+    ],
+    "initialValue": "none"
+  },
+  "-ms-touch-select": {
+    "validValues": [
+      "grippers",
+      "none"
+    ],
+    "initialValue": "grippers"
+  },
+  "-ms-wrap-flow": {
+    "validValues": [
+      "auto",
+      "both",
+      "start",
+      "end",
+      "maximum",
+      "clear"
+    ],
+    "initialValue": "auto"
+  },
+  "-ms-wrap-margin": {
+    "validValues": [
+      "<length>"
+    ],
+    "initialValue": "0"
+  },
+  "-ms-wrap-through": {
+    "validValues": [
+      "wrap",
+      "none"
+    ],
+    "initialValue": "wrap"
+  },
+  "-webkit-box-reflect": {
+    "validValues": [
+      "above",
+      "below",
+      "right",
+      "left? <length>? <image>?"
+    ],
+    "initialValue": "none"
+  },
+  "-webkit-line-clamp": {
+    "validValues": [
+      "none",
+      "<integer>"
+    ],
+    "initialValue": "none"
+  },
+  "-webkit-mask-composite": {
+    "validValues": [
+      "<composite-style>#"
+    ],
+    "initialValue": "source-over"
+  },
+  "-webkit-text-fill-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "-webkit-text-stroke-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "currentcolor"
+  },
+  "-webkit-text-stroke-width": {
+    "validValues": [
+      "<length>"
+    ],
+    "initialValue": "0"
+  },
+  "-ms-content-zoom-limit": {
+    "validValues": [
+      "<'-ms-content-zoom-limit-min'> <'-ms-content-zoom-limit-max'>"
+    ]
+  },
+  "-ms-content-zoom-snap": {
+    "validValues": [
+      "<'-ms-content-zoom-snap-type'> || <'-ms-content-zoom-snap-points'>"
+    ]
+  },
+  "-ms-scroll-snap-x": {
+    "validValues": [
+      "<'-ms-scroll-snap-type'> <'-ms-scroll-snap-points-y'>"
+    ]
+  },
+  "-webkit-border-before": {
+    "validValues": [
+      "<'border-width'> || <'border-style'> || <color>"
+    ]
+  },
+  "-webkit-text-stroke": {
+    "validValues": [
+      "<length> || <color>"
+    ]
+  },
+  "box-align": {
+    "validValues": [
+      "start",
+      "center",
+      "end",
+      "baseline",
+      "stretch"
+    ],
+    "initialValue": "stretch"
+  },
+  "box-direction": {
+    "validValues": [
+      "normal",
+      "reverse",
+      "inherit"
+    ],
+    "initialValue": "normal"
+  },
+  "-moz-box-flex": {
+    "validValues": [
+      "<number>"
+    ],
+    "initialValue": "0"
+  },
+  "box-flex-group": {
+    "validValues": [
+      "<integer>"
+    ],
+    "initialValue": "1"
+  },
+  "box-lines": {
+    "validValues": [
+      "single",
+      "multiple"
+    ],
+    "initialValue": "single"
+  },
+  "box-ordinal-group": {
+    "validValues": [
+      "<integer>"
+    ],
+    "initialValue": "1"
+  },
+  "box-orient": {
+    "validValues": [
+      "horizontal",
+      "vertical",
+      "inline-axis",
+      "block-axis",
+      "inherit"
+    ],
+    "initialValue": "inline-axis"
+  },
+  "-moz-box-pack": {
+    "validValues": [
+      "start",
+      "center",
+      "end",
+      "justify"
+    ],
+    "initialValue": "start"
+  },
+  "clip": {
+    "validValues": [
+      "<shape>",
+      "auto"
+    ],
+    "initialValue": "auto"
+  },
+  "ime-mode": {
+    "validValues": [
+      "auto",
+      "normal",
+      "active",
+      "inactive",
+      "disabled"
+    ],
+    "initialValue": "auto"
+  },
+  "scroll-snap-coordinate": {
+    "validValues": [
+      "none",
+      "<position>#"
+    ],
+    "initialValue": "none"
+  },
+  "scroll-snap-destination": {
+    "validValues": [
+      "<position>"
+    ],
+    "initialValue": "0px 0px"
+  },
+  "scroll-snap-points-x": {
+    "validValues": [
+      "none",
+      "repeat( <length-percentage> )"
+    ],
+    "initialValue": "none"
+  },
+  "scroll-snap-points-y": {
+    "validValues": [
+      "none",
+      "repeat( <length-percentage> )"
+    ],
+    "initialValue": "none"
+  },
+  "scroll-snap-type-x": {
+    "validValues": [
+      "none",
+      "mandatory",
+      "proximity"
+    ],
+    "initialValue": "none"
+  },
+  "scroll-snap-type-y": {
+    "validValues": [
+      "none",
+      "mandatory",
+      "proximity"
+    ],
+    "initialValue": "none"
+  },
+  "-ms-scrollbar-track-color": {
+    "validValues": [
+      "<color>"
+    ],
+    "initialValue": "Scrollbar"
+  },
+  "-moz-binding": {
+    "validValues": [
+      "<url>",
+      "none"
+    ],
+    "initialValue": "none"
+  },
+  "-moz-force-broken-image-icon": {
+    "validValues": [
+      "0",
+      "1"
+    ],
+    "initialValue": "0"
+  }
+}

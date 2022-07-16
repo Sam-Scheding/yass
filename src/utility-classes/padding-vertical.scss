@@ -1,0 +1,8 @@
+@import '../design-tokens/dt-padding.scss';
+
+@each $key, $value in $dt-padding {
+  .padding-vertical\:#{$key} {
+    padding-top: $value;
+    padding-bottom: $value;
+  }
+}

@@ -1,0 +1,1022 @@
+@import './rules/_index.scss';
+@import './utility-classes/_index.scss';
+
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+// -moz-binding
+// -moz-box-flex
+// -moz-box-pack
+// -moz-context-properties
+// -moz-force-broken-image-icon
+// -moz-orient
+// -moz-text-blink
+// -moz-user-focus
+// -moz-window-dragging
+// -moz-window-shadow
+// -ms-accelerator
+// -ms-block-progression
+// -ms-content-zoom-chaining
+// -ms-content-zoom-limit
+// -ms-content-zoom-limit-max
+// -ms-content-zoom-limit-min
+// -ms-content-zoom-snap
+// -ms-content-zoom-snap-points
+// -ms-content-zoom-snap-type
+// -ms-content-zooming
+// -ms-flow-from
+// -ms-flow-into
+// -ms-high-contrast-adjust
+// -ms-hyphenate-limit-chars
+// -ms-hyphenate-limit-lines
+// -ms-ime-align
+// -ms-overflow-style
+// -ms-scroll-limit-x-min
+// -ms-scroll-limit-y-max
+// -ms-scroll-limit-y-min
+// -ms-scroll-rails
+// -ms-scroll-snap-points-x
+// -ms-scroll-snap-points-y
+// -ms-scroll-snap-x
+// -ms-scroll-translation
+// -ms-scrollbar-3dlight-color
+// -ms-scrollbar-arrow-color
+// -ms-scrollbar-darkshadow-color
+// -ms-scrollbar-shadow-color
+// -ms-scrollbar-track-color
+// -ms-text-autospace
+// -ms-touch-select
+// -ms-wrap-flow
+// -ms-wrap-margin
+// -ms-wrap-through
+// -webkit-border-before
+// -webkit-box-reflect
+// -webkit-line-clamp
+// -webkit-mask-composite
+// -webkit-text-fill-color
+// -webkit-text-stroke
+// -webkit-text-stroke-color
+// -webkit-text-stroke-width
+// accent-color
+// align-content
+@each $value in $align-content {
+  .align-content\:#{$value} {
+    align-content: $value;
+  }
+}
+
+// align-items
+@each $value in $align-items {
+  .align-items\:#{$value} {
+    align-items: $value;
+  }
+}
+
+// align-self
+@each $value in $align-self {
+  .align-self\:#{$value} {
+    align-self: $value;
+  }
+}
+// align-tracks
+// all
+// animation
+// animation-delay
+// animation-direction
+// animation-duration
+// animation-fill-mode
+// animation-iteration-count
+// animation-name
+// animation-play-state
+// animation-timeline
+// animation-timing-function
+// appearance
+// aspect-ratio
+// backdrop-filter
+// backface-visibility
+// background
+// background-attachment
+// background-blend-mode
+// background-clip
+// background-color
+@each $key, $value in map-get($map: $color, $key: neutral) {
+  .background-color\:neutral-#{$key} {
+    background-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: red) {
+  .background-color\:red-#{$key} {
+    background-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: orange) {
+  .background-color\:orange-#{$key} {
+    background-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: yellow) {
+  .background-color\:yellow-#{$key} {
+    background-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: green) {
+  .background-color\:green-#{$key} {
+    background-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: teal) {
+  .background-color\:teal-#{$key} {
+    background-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: blue) {
+  .background-color\:blue-#{$key} {
+    background-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: purple) {
+  .background-color\:purple-#{$key} {
+    background-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: pink) {
+  .background-color\:pink-#{$key} {
+    background-color: $value;
+  }
+}
+
+// background-image
+// background-origin
+// background-position
+// background-position-x
+// background-position-y
+// background-repeat
+// background-size
+// block-size
+// border
+// border-block
+// border-block-color
+// border-block-end
+// border-block-end-color
+// border-block-end-style
+// border-block-end-width
+// border-block-start
+// border-block-start-color
+// border-block-start-style
+// border-block-start-width
+// border-block-style
+// border-block-width
+// border-bottom
+// border-bottom-color
+@each $key, $value in map-get($map: $color, $key: neutral) {
+  .border-bottom-color\:neutral-#{$key} {
+    border-bottom-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: red) {
+  .border-bottom-color\:red-#{$key} {
+    border-bottom-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: orange) {
+  .border-bottom-color\:orange-#{$key} {
+    border-bottom-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: yellow) {
+  .border-bottom-color\:yellow-#{$key} {
+    border-bottom-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: green) {
+  .border-bottom-color\:green-#{$key} {
+    border-bottom-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: teal) {
+  .border-bottom-color\:teal-#{$key} {
+    border-bottom-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: blue) {
+  .border-bottom-color\:blue-#{$key} {
+    border-bottom-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: purple) {
+  .border-bottom-color\:purple-#{$key} {
+    border-bottom-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: pink) {
+  .border-bottom-color\:pink-#{$key} {
+    border-bottom-color: $value;
+  }
+}
+
+// border-bottom-left-radius
+// border-bottom-right-radius
+// border-bottom-style
+// border-bottom-width
+// border-collapse
+// border-color
+@each $key, $value in map-get($map: $color, $key: neutral) {
+  .border-color\:neutral-#{$key} {
+    border-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: red) {
+  .border-color\:red-#{$key} {
+    border-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: orange) {
+  .border-color\:orange-#{$key} {
+    border-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: yellow) {
+  .border-color\:yellow-#{$key} {
+    border-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: green) {
+  .border-color\:green-#{$key} {
+    border-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: teal) {
+  .border-color\:teal-#{$key} {
+    border-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: blue) {
+  .border-color\:blue-#{$key} {
+    border-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: purple) {
+  .border-color\:purple-#{$key} {
+    border-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: pink) {
+  .border-color\:pink-#{$key} {
+    border-color: $value;
+  }
+}
+// border-end-end-radius
+// border-end-start-radius
+// border-image
+// border-image-outset
+// border-image-repeat
+// border-image-slice
+// border-image-source
+// border-image-width
+// border-inline
+// border-inline-color
+@each $key, $value in map-get($map: $color, $key: neutral) {
+  .border-inline-color\:neutral-#{$key} {
+    border-inline-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: red) {
+  .border-inline-color\:red-#{$key} {
+    border-inline-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: orange) {
+  .border-inline-color\:orange-#{$key} {
+    border-inline-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: yellow) {
+  .border-inline-color\:yellow-#{$key} {
+    border-inline-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: green) {
+  .border-inline-color\:green-#{$key} {
+    border-inline-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: teal) {
+  .border-inline-color\:teal-#{$key} {
+    border-inline-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: blue) {
+  .border-inline-color\:blue-#{$key} {
+    border-inline-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: purple) {
+  .border-inline-color\:purple-#{$key} {
+    border-inline-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: pink) {
+  .border-inline-color\:pink-#{$key} {
+    border-inline-color: $value;
+  }
+}
+// border-inline-end
+// border-inline-end-color
+// border-inline-end-style
+// border-inline-end-width
+// border-inline-start
+// border-inline-start-color
+// border-inline-start-style
+// border-inline-start-width
+// border-inline-style
+// border-inline-width
+// border-left
+// border-left-color
+@each $key, $value in map-get($map: $color, $key: neutral) {
+  .border-left-color\:neutral-#{$key} {
+    border-left-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: red) {
+  .border-left-color\:red-#{$key} {
+    border-left-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: orange) {
+  .border-left-color\:orange-#{$key} {
+    border-left-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: yellow) {
+  .border-left-color\:yellow-#{$key} {
+    border-left-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: green) {
+  .border-left-color\:green-#{$key} {
+    border-left-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: teal) {
+  .border-left-color\:teal-#{$key} {
+    border-left-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: blue) {
+  .border-left-color\:blue-#{$key} {
+    border-left-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: purple) {
+  .border-left-color\:purple-#{$key} {
+    border-left-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: pink) {
+  .border-left-color\:pink-#{$key} {
+    border-left-color: $value;
+  }
+}
+// border-left-style
+// border-left-width
+// border-radius
+@each $key, $value in $border-radius {
+  .border-radius\:#{$key} {
+    border-radius: $value;
+  }
+}
+
+// border-right
+// border-right-color
+@each $key, $value in map-get($map: $color, $key: neutral) {
+  .border-right-color\:neutral-#{$key} {
+    border-right-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: red) {
+  .border-right-color\:red-#{$key} {
+    border-right-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: orange) {
+  .border-right-color\:orange-#{$key} {
+    border-right-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: yellow) {
+  .border-right-color\:yellow-#{$key} {
+    border-right-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: green) {
+  .border-right-color\:green-#{$key} {
+    border-right-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: teal) {
+  .border-right-color\:teal-#{$key} {
+    border-right-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: blue) {
+  .border-right-color\:blue-#{$key} {
+    border-right-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: purple) {
+  .border-right-color\:purple-#{$key} {
+    border-right-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: pink) {
+  .border-right-color\:pink-#{$key} {
+    border-right-color: $value;
+  }
+}
+// border-right-style
+// border-right-width
+// border-spacing
+// border-start-end-radius
+// border-start-start-radius
+// border-style
+@each $value in $border-style {
+  .border-style\:#{$value} {
+    border-style: $value;
+  }
+}
+// border-top
+// border-top-color
+@each $key, $value in map-get($map: $color, $key: neutral) {
+  .border-top-color\:neutral-#{$key} {
+    border-top-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: red) {
+  .border-top-color\:red-#{$key} {
+    border-top-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: orange) {
+  .border-top-color\:orange-#{$key} {
+    border-top-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: yellow) {
+  .border-top-color\:yellow-#{$key} {
+    border-top-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: green) {
+  .border-top-color\:green-#{$key} {
+    border-top-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: teal) {
+  .border-top-color\:teal-#{$key} {
+    border-top-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: blue) {
+  .border-top-color\:blue-#{$key} {
+    border-top-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: purple) {
+  .border-top-color\:purple-#{$key} {
+    border-top-color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: pink) {
+  .border-top-color\:pink-#{$key} {
+    border-top-color: $value;
+  }
+}
+// border-top-left-radius
+// border-top-right-radius
+// border-top-style
+// border-top-width
+// border-width
+@each $key, $value in $border-width {
+  .border-width\:#{$key} {
+    border-width: #{$value};
+  }
+}
+// bottom
+// box-align
+// box-decoration-break
+// box-direction
+// box-flex-group
+// box-lines
+// box-ordinal-group
+// box-orient
+// box-shadow
+// box-sizing
+// break-after
+// break-before
+// break-inside
+// caption-side
+// caret-color
+// clear
+// clip
+// clip-path
+// color
+@each $key, $value in map-get($map: $color, $key: neutral) {
+  .color\:neutral-#{$key} {
+    color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: red) {
+  .color\:red-#{$key} {
+    color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: orange) {
+  .color\:orange-#{$key} {
+    color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: yellow) {
+  .color\:yellow-#{$key} {
+    color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: green) {
+  .color\:green-#{$key} {
+    color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: teal) {
+  .color\:teal-#{$key} {
+    color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: blue) {
+  .color\:blue-#{$key} {
+    color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: purple) {
+  .color\:purple-#{$key} {
+    color: $value;
+  }
+}
+
+@each $key, $value in map-get($map: $color, $key: pink) {
+  .color\:pink-#{$key} {
+    color: $value;
+  }
+}
+// color-scheme
+// column-count
+// column-fill
+// column-gap
+// column-rule
+// column-rule-color
+// column-rule-style
+// column-rule-width
+// column-span
+// column-width
+// columns
+// contain
+// content
+// content-visibility
+// counter-increment
+// counter-reset
+// counter-set
+// cursor
+// direction
+// display
+@each $value in $display {
+  .display\:#{$value} {
+    display: $value;
+  }
+}
+
+// empty-cells
+// filter
+// flex
+// flex-basis
+@each $value in $flex-direction {
+  .flex-direction\:#{$value} {
+    flex-direction: #{$value}
+  }
+}
+// flex-flow
+// flex-grow
+// flex-shrink
+// flex-wrap
+// float
+// font
+// font-family
+// font-feature-settings
+// font-kerning
+// font-language-override
+// font-optical-sizing
+// font-size
+@each $key, $value in $font-size {
+  .font-size\:#{$key} {
+    font-size: $value;
+  }
+}
+
+// font-size-adjust
+// font-smooth
+// font-stretch
+// font-style
+// font-synthesis
+// font-variant
+// font-variant-alternates
+// font-variant-caps
+// font-variant-east-asian
+// font-variant-ligatures
+// font-variant-numeric
+// font-variant-position
+// font-variation-settings
+// font-weight
+@each $value in $font-weight {
+  .font-weight\:#{$value} {
+    font-weight: $value;
+  }
+}
+// forced-color-adjust
+// gap
+@each $key, $value in $gap {
+  .gap\:#{$key} {
+    gap: #{$value}
+  }
+}
+// grid
+// grid-area
+// grid-auto-columns
+// grid-auto-flow
+// grid-auto-rows
+// grid-column
+// grid-column-end
+// grid-column-start
+// grid-row
+// grid-row-end
+// grid-row-start
+// grid-template
+// grid-template-areas
+// grid-template-columns
+// grid-template-rows
+// hanging-punctuation
+// height
+@each $key, $value in $height {
+  .height\:#{$key} {
+    height: $value;
+  }
+}
+// hyphenate-character
+// hyphens
+// image-orientation
+// image-rendering
+// ime-mode
+// inline-size
+// inset
+// inset-block
+// inset-block-end
+// inset-block-start
+// inset-inline
+// inset-inline-end
+// inset-inline-start
+// isolation
+// justify-content
+@each $value in $justify-content {
+  .justify-content\:#{$value} {
+    justify-content: $value;
+  }
+}
+// justify-items
+// justify-self
+// justify-tracks
+// left
+// letter-spacing
+// line-break
+// line-height
+// line-height-step
+// list-style
+// list-style-image
+// list-style-position
+// list-style-type
+// margin
+@each $key, $value in $margin {
+  .margin\:#{$key} {
+    margin: $value;
+  }
+}
+// margin-block
+// margin-block-end
+// margin-block-start
+// margin-bottom
+@each $key, $value in $margin-bottom {
+  .margin-bottom\:#{$key} {
+    margin-bottom: $value;
+  }
+}
+// margin-inline
+// margin-inline-end
+// margin-inline-start
+// margin-left
+@each $key, $value in $margin-left {
+  .margin-left\:#{$key} {
+    margin-left: $value;
+  }
+}
+// margin-right
+@each $key, $value in $margin-right {
+  .margin-right\:#{$key} {
+    margin-right: $value;
+  }
+}
+// margin-top
+@each $key, $value in $margin-top {
+  .margin-top\:#{$key} {
+    margin-top: $value;
+  }
+}
+// mask
+// mask-border
+// mask-border-mode
+// mask-border-outset
+// mask-border-repeat
+// mask-border-slice
+// mask-border-source
+// mask-border-width
+// mask-clip
+// mask-composite
+// mask-image
+// mask-mode
+// mask-origin
+// mask-position
+// mask-repeat
+// mask-size
+// mask-type
+// max-block-size
+// max-height
+@each $key, $value in $max-height {
+  .max-height\:#{$key} {
+    max-height: $value;
+  }
+}
+// max-inline-size
+// max-width
+@each $key, $value in $max-width {
+  .max-width\:#{$key} {
+    max-width: $value;
+  }
+}
+// min-block-size
+// min-height
+@each $key, $value in $min-height {
+  .min-height\:#{$key} {
+    min-height: $value;
+  }
+}
+// min-inline-size
+// min-width
+@each $key, $value in $min-width {
+  .min-width\:#{$key} {
+    min-width: $value;
+  }
+}
+// mix-blend-mode
+// object-fit
+// object-position
+// offset
+// offset-distance
+// offset-path
+// offset-rotate
+// opacity
+@each $key, $value in $opacity {
+  .opacity\:#{$key} {
+    min-width: $value;
+  }
+}
+// order
+// orphans
+// outline
+// outline-color
+// outline-offset
+// outline-style
+// outline-width
+// overflow
+// overflow-clip-box
+// overflow-wrap
+// overflow-x
+// overflow-y
+// overscroll-behavior
+// overscroll-behavior-block
+// overscroll-behavior-inline
+// overscroll-behavior-x
+// overscroll-behavior-y
+// padding
+@each $key, $value in $padding {
+  .padding\:#{$key} {
+    padding: $value;
+  }
+}
+// padding-block
+// padding-block-end
+// padding-block-start
+// padding-bottom
+@each $key, $value in $padding-bottom {
+  .padding-bottom\:#{$key} {
+    padding-bottom: $value;
+  }
+}
+// padding-inline
+// padding-inline-end
+// padding-inline-start
+// padding-left
+@each $key, $value in $padding-left {
+  .padding-left\:#{$key} {
+    padding-left: $value;
+  }
+}
+// padding-right
+@each $key, $value in $padding-right {
+  .padding-right\:#{$key} {
+    padding-right: $value;
+  }
+}
+// padding-top
+@each $key, $value in $padding-top {
+  .padding-top\:#{$key} {
+    padding-top: $value;
+  }
+}
+// page-break-after
+// page-break-before
+// page-break-inside
+// paint-order
+// perspective
+// perspective-origin
+// place-content
+// place-items
+// place-self
+// pointer-events
+// position
+@each $value in $position {
+  .position\:#{$value} {
+    position: $value;
+  }
+}
+// print-color-adjust
+// quotes
+// resize
+// right
+// rotate
+// row-gap
+// ruby-align
+// ruby-position
+// scale
+// scroll-behavior
+// scroll-margin
+// scroll-padding
+// scroll-padding-top
+// scroll-snap-coordinate
+// scroll-snap-destination
+// scroll-snap-points-x
+// scroll-snap-points-y
+// scroll-snap-stop
+// scroll-snap-type
+// scroll-snap-type-x
+// scroll-snap-type-y
+// scrollbar-color
+// scrollbar-gutter
+// scrollbar-width
+// shape-image-threshold
+// shape-margin
+// shape-outside
+// tab-size
+// table-layout
+// text-align
+@each $value in $text-align {
+  .text-align\:#{$value} {
+    text-align: $value;
+  }
+}
+// text-align-last
+// text-combine-upright
+// text-decoration
+// text-decoration-color
+// text-decoration-line
+// text-decoration-skip
+// text-decoration-skip-ink
+// text-decoration-style
+// text-decoration-thickness
+// text-emphasis
+// text-emphasis-color
+// text-emphasis-position
+// text-emphasis-style
+// text-indent
+// text-justify
+// text-orientation
+// text-overflow
+// text-rendering
+// text-shadow
+// text-size-adjust
+// text-transform
+// text-underline-offset
+// text-underline-position
+// top
+// touch-action
+// transform
+// transform-box
+// transform-origin
+// transform-style
+// transition
+// transition-delay
+// transition-duration
+// transition-property
+// transition-timing-function
+// translate
+// unicode-bidi
+// user-modify
+// user-select
+// vertical-align
+// visibility
+// white-space
+// widows
+// width
+@each $key, $value in $width {
+  .width\:#{$key} {
+    width: $value;
+  }
+}
+// will-change
+// word-break
+// word-spacing
+// writing-mode
+// z-index
+@each $value in $z-index {
+  .z-index\:#{$value} {
+    z-index: $value;
+  }
+}
