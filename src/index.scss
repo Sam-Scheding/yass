@@ -1,3 +1,4 @@
+@import './reset.scss';
 @import './rules/_index.scss';
 @import './utility-classes/_index.scss';
 
@@ -759,6 +760,11 @@
 // letter-spacing
 // line-break
 // line-height
+@each $key, $value in $line-height {
+  .line-height\:#{$key} {
+    line-height: $value;
+  }
+}
 // line-height-step
 // list-style
 // list-style-image

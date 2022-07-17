@@ -1,0 +1,16 @@
+@import '../design-tokens/dt-font-size.scss';
+
+@each $key, $value in $dt-font-size {
+  .heading\:#{$key} {
+    margin: 1em 0 0.5em 0;
+    font-family: inherit;
+    font-weight: var(font-weight-semibold);
+    font-style: normal;
+    color: inherit;
+    line-height: var(line-height-s);
+    text-transform: none;
+    letter-spacing: var(letter-spacing);
+    font-size: $value;
+  }
+}
+

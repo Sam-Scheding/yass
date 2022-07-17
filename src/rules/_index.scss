@@ -51,7 +51,6 @@
 // -webkit-text-stroke
 // -webkit-text-stroke-color
 // -webkit-text-stroke-width
-@import './accent-color.scss';
 @import './align-content.scss';
 @import './align-items.scss';
 @import './align-self.scss';
@@ -220,7 +219,6 @@
 // font-variation-settings
 @import './font-weight.scss';
 // forced-color-adjust
-// gap
 @import './gap.scss';
 // grid
 // grid-area
@@ -238,7 +236,6 @@
 // grid-template-columns
 // grid-template-rows
 // hanging-punctuation
-// height
 @import './height.scss';
 // hyphenate-character
 // hyphens
@@ -261,7 +258,7 @@
 // left
 // letter-spacing
 // line-break
-// line-height
+@import 'line-height.scss';
 // line-height-step
 // list-style
 // list-style-image

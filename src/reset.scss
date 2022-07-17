@@ -1,0 +1,47 @@
+blockquote,
+body,
+button,
+canvas,
+caption,
+dd,
+details,
+dialog,
+dl,
+fieldset,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+img,
+legend,
+li,
+menu,
+ol,
+p,
+pre,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+ul {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+[disabled],
+:disabled {
+  cursor: default;
+  pointer-events: none;
+}

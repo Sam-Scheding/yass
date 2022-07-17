@@ -6,11 +6,11 @@ Yass Builds on concepts from [Hucssley](https://github.com/stowball/hucssley), [
 
 ### React
 ```bash
-$ npm i yass
+$ npm i yass-css
 ```
 
 ```js
-import 'yass'
+import 'yass-css'
 
 export default function MyComponent() {
   return (
@@ -25,12 +25,12 @@ export default function MyComponent() {
 
 ### Vue
 ```bash
-$ npm i yass
+$ npm i yass-css
 ```
 
 ```Vue
 <script>
-import 'yass'
+import 'yass-css'
 
 export default {}
 </script>
@@ -126,7 +126,16 @@ Yass uses [Rainbow](https://github.com/scottdejonge/rainbow) colors internally b
 
 ### Utility Classes
 
-To make life easier, Yass ships with some utility classes that allow for 
+To make life easier, Yass ships with some utility classes
+
+- `heading`
+- `margin-horizontal`
+- `margin-vertical`
+- `padding-horizontal`
+- `padding-vertical`
+- `size`
+- `typography`
+- `visually-hidden`
 
 ## Gotchas 
 

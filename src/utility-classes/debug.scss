@@ -1,0 +1,6 @@
+
+.debug {
+  @extend .border-width\:100;
+  @extend .border-color\:red-500;
+  border-style: solid;
+}

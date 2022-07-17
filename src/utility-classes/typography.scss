@@ -1,1 +1,14 @@
 
+@each $key, $value in $dt-font-size {
+  .typography\:#{$key} {
+    margin: 0;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: $value;
+    font-style: normal;
+    color: inherit;
+    line-height: 1.5;
+    text-transform: none;
+    letter-spacing: 1;
+  }
+}
