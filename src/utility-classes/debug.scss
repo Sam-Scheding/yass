@@ -1,6 +1,15 @@
+@import '../design-tokens/dt-color.scss';
 
 .debug {
   @extend .border-width\:100;
   @extend .border-color\:red-500;
   border-style: solid;
+}
+
+@each $key, $value in $dt-color {
+  .debug-#{$key} {
+    @extend .border-width\:100;
+    @extend .border-color\:#{$key}-500;
+    border-style: solid;
+  }
 }

@@ -1,15 +1,20 @@
 {
   "name": "yass-css",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Atomic CSS that will make you say Yasss!",
   "main": "src/index.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass -w src/index.scss -o css/"
+    "sass": "node-sass -w src/index.scss -o dist/",
+    "minify": "minify dist/index.css > dist/index.min.css"
   },
   "author": "Sam Scheding",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "css-minify": "^2.0.0",
+    "minify": "^9.1.0"
   }
 }
